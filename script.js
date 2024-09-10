@@ -146,7 +146,7 @@ document.getElementById('next').addEventListener('click',()=>{
 
 // Previous Button
 document.getElementById('previous').addEventListener('click',()=>{
-    if(songIndex <= 9){
+    if(songIndex <= 0){
      songIndex = 0;
     }else{
      songIndex -= 1;
