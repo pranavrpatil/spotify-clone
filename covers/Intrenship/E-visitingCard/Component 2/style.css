@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+.container{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, .35);
+}
+.card{
+    border-radius: 25px;
+}
+.content{
+   margin: 0px 15px 30px;
+   border-radius: 20px;
+}
+
+.facebook{
+    background-color: rgb(67, 67, 127);
+}
+
+.options{
+    font-size: x-small;
+}
+
+.bottom-text {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    text-align: center; 
+    font-size: medium;
+    color: black;
+}
+
+.carousel-item{
+    width: 50%;
+    margin-left: 25%;
+}
+.carousel-item img{
+    border-radius: 25px;
+    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;    
+}
+
+.carouselSlide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#footer-bar{
+    background-color:  rgba(0, 0, 0, .35);
+    width: 100vw;
+}
+#footer-bar i,span{
+    color: black;
+}
+
+/* .footer-bar-6{
+    
+} */ 
+
+
+
